@@ -1,0 +1,45 @@
+:root {
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --secondary: #64748b;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --info: #06b6d4;
+  --shadow: 0 4px 10px rgba(16, 16, 16, 0.08);
+  
+}
+
+/* sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: var(--primary);
+  color: white;
+  padding: 10px;
+  box-shadow: var(--shadow);
+}
+
+.sidebar h3 {
+  margin-bottom: 20%;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
